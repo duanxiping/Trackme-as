@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="action_settings">Settings</string>
+    
+    <!-- 登录 -->   
+    <string name="app_name">Track Me</string>
+    <string name="tv_check_update">系统检测到有新版本，点击更新</string>
+    <string name="in_search">正在搜索</string>
+    <string name="account_hit">请输入账号</string>
+    <string name="password_hit">请输入密码</string>
+    <string name="button_login">登录</string>
+    <string name="button_cancle">取消</string>
+    <string name="network_wrong">网络连接异常</string>
+    <string name="login_out">退出</string>
+    <string name="remind_pwd">记住密码</string>
+    <string name="cannot_get_driver_id">无法获取设备IMEI号</string>
+    
+    <string name="prompt">提示</string>
+    <string name="set_net">设置网络吗？</string>
+    <string name="sure_set">确定</string>
+    <string name="net_unalive">网络不可用</string>
+    
+    <!-- <string name="google_unalive">没有内置谷歌地图</string> -->
+    
+    <string name="user_login">用户登录</string>
+    <string name="in_login">登录中.....</string>
+    <string name="username_dont_match">用户名密码不匹配</string>
+    <string name="init_time_error">初始化时间错误</string>
+    <string name="find_me">定位</string>
+    <string name="exit">退出</string>
+    <string name="chinese">中文</string>
+    <string name="English">英文</string>
+    <string name="in_commit">正在提交数据...</string>
+    <string name="User_name_cannot_be_empty">用户名不能为空</string>
+    <string name="Password_cannot_be_empty">密码不能为空</string>
+    <string name="try_again">请重试</string>
+    
+    <string name="hide_map">隐藏地图</string>
+    <string name="show_map">显示地图</string>
+    
+    <string name="registration_key">设置</string>
+    <string name="cannot_find">无法获取位置信息</string>
+    <string name="on_work">上班</string>
+    <string name="off_work">下班</string>
+    <string name="image_description">图片</string>
+    <string name="commit_success">提交成功</string>
+    <string name="commit_fail">提交失败</string>
+    <string name="sure_exit">确定要退出吗？</string>
+    <string name="note">提示</string>
+    <string name="first_off_work">请先下班</string>
+    <string name="service">后台运行中</string>
+	<string name="save">保存</string>
+	<string name="divices_name">设置设备名称</string>
+	<string name="get_data">数据读取中</string>
+	<string name="can_not_null">请填写完整</string>
+	<string name="Traffic">地图</string>
+    <string name="Satellite">卫星</string>
+    <string name="location_error">上班打卡失败.没有定位信息.</string>
+    <string name="location_errors">下班打卡失败.没有定位信息.</string>
+    <string name="acquire_gps">否获取位置</string>
+    
+    <string name="warning">警告!</string>
+    <string name="msg_warning">请求网络超时,重新再试一次!</string>
+    <string name="warn_return">确认</string>
+    <string name="press_again">再按一次退出程序</string>
+    
+    <string name="setting_ip">设置 IP</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="ip_empty">ip 不能为空</string>
+    <string name="log_out">返回</string>
+    <string name="ip_save">IP已保存</string>
+    
+    <string name="open_gps">请打开手机的定位服务</string>
+    
+    <string name="open_gps_success">定位服务已打开</string>
+    <string name="open_gps_fail">定位服务没有打开</string>
+    <string name="turn_on_gps_please">请打开定位服务再启动应用</string>
+
+
+    <string name="permission_camera_user_hint">test onRequestPermissionsResult: 没有此权限，无法开启这个功能，请开启权限。请打开照相机权限</string>
+    <string name="permission_camera_user_hint1">test shouldShowRequestPermissionRationale: 没有此权限，无法开启这个功能，请开启权限。请打开照相机权限</string>
+    <string name="permission_get_accounts_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_GET_ACCOUNTS</string>
+    <string name="permission_read_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_PHONE_STATE</string>
+    <string name="permission_call_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CALL_PHONE</string>
+    <string name="permission_camera_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CAMERA</string>
+    <string name="permission_access_fine_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_FINE_LOCATION</string>
+    <string name="permission_access_coarse_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_COARSE_LOCATION</string>
+    <string name="permission_read_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_EXTERNAL_STORAGE</string>
+    <string name="permission_white_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_recode_audio_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_RECORD_AUDIO</string>
+    
+</resources>
+

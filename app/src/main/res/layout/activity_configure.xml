@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#EEEEEE"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"  
+   	android:focusableInTouchMode="true"
+    android:padding="3dp"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+	    android:layout_weight="1"
+        android:background="@drawable/white_roung_bg_top"
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" >
+    	
+        
+        <ScrollView 
+            android:fadeScrollbars="false" 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:scrollbars="vertical" >
+        
+		    <LinearLayout 
+		        android:padding ="5dp"
+		         android:layout_width="match_parent"
+		         android:layout_height="wrap_content"
+		         android:orientation="vertical">
+		         
+		        <LinearLayout 
+			         android:layout_width="match_parent"
+			         android:layout_height="wrap_content"
+			         android:orientation="vertical">
+		         	<TextView 
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_marginTop="3dp"
+					    android:textSize="@dimen/main_page_text_title_size"
+					    android:paddingLeft="3dp"
+					    android:paddingRight="3dp"
+					    android:textColor="@color/navy_gray"
+					    android:text="Device ID:"/>
+				    <EditText
+				        android:id="@+id/et_device_id" 
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_marginTop="5dp"
+				        android:layout_marginBottom="10dp"
+				        android:paddingLeft="3dp"
+						android:focusable="false"
+				        android:enabled="false"
+						android:background="@drawable/bag_tv_ed"
+						android:textColor="@color/blue_press"
+				        android:textSize="@dimen/main_page_text_size"
+				        android:padding="10dp"/>
+		        </LinearLayout>     
+				<View 
+				    android:layout_width="fill_parent"
+				    android:layout_height="1dp"
+				    android:background="#e5e5e5"/>
+						
+				<LinearLayout 
+			         android:layout_width="match_parent"
+			         android:layout_height="wrap_content"
+			         android:orientation="vertical">
+					    		
+					<TextView 
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_marginTop="3dp"
+					    android:textSize="@dimen/main_page_text_title_size"
+					    android:paddingLeft="3dp"
+					    android:paddingRight="3dp"
+					    android:textColor="@color/navy_gray"
+					    android:text="Device SIM (Edit):"/>
+				    <EditText
+				        android:id="@+id/et_sim" 
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:paddingLeft="3dp"
+				        android:layout_marginTop="5dp"
+				        android:layout_marginBottom="10dp"
+				        android:background="@drawable/bag_tv_ed"
+				        android:textColor="@color/blue_press"
+				        android:textSize="@dimen/main_page_text_size"
+				        android:padding="10dp"/>
+				</LinearLayout>	
+						
+				<View 
+				    android:layout_width="fill_parent"
+				    android:layout_height="1dp"
+				    android:background="#e5e5e5"/>
+				
+				
+				<LinearLayout 
+			         android:layout_width="match_parent"
+			         android:layout_height="wrap_content"
+			         android:orientation="vertical">
+					    
+					<TextView 
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_marginTop="3dp"
+					    android:textSize="@dimen/main_page_text_title_size"
+					    android:paddingLeft="3dp"
+					    android:paddingRight="3dp"
+					    android:textColor="@color/navy_gray"
+					    android:text="Device Name (Edit):"/>
+				    <EditText
+				        android:id="@+id/et_vname" 
+				      	android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:paddingLeft="3dp"
+				        android:layout_marginTop="5dp"
+				        android:layout_marginBottom="10dp"
+				        android:background="@drawable/bag_tv_ed"
+				        android:textColor="@color/blue_press"
+				        android:textSize="@dimen/main_page_text_size"
+				        android:padding="10dp"/>
+				</LinearLayout>	
+				
+				<View 
+				    android:layout_width="fill_parent"
+				    android:layout_height="1dp"
+				    android:background="#e5e5e5"/>
+				
+				<LinearLayout 
+			         android:layout_width="match_parent"
+			         android:layout_height="wrap_content"
+			         android:orientation="vertical">
+					    
+					<TextView 
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_marginTop="3dp"
+					    android:textSize="@dimen/main_page_text_title_size"
+					    android:paddingLeft="3dp"
+					    android:paddingRight="3dp"
+					    android:textColor="@color/navy_gray"
+					    android:text="Host IP:"/>
+				    <EditText
+				        android:id="@+id/et_host_ip" 
+				      	android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:paddingLeft="3dp"
+				        android:layout_marginTop="5dp"
+				        android:layout_marginBottom="10dp"
+				        android:background="@drawable/bag_tv_ed"
+				        android:textColor="@color/blue_press"
+				        android:textSize="@dimen/main_page_text_size"
+				        android:focusable="false"
+				        android:padding="10dp"/>
+				    
+				</LinearLayout>
+				<View 
+				    android:layout_width="fill_parent"
+				    android:layout_height="1dp"
+				    android:background="#e5e5e5"/>
+				
+				<LinearLayout 
+			         android:layout_width="match_parent"
+			         android:layout_height="wrap_content"
+			         android:orientation="vertical">
+					    
+					<TextView 
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_marginTop="3dp"
+					    android:textSize="@dimen/main_page_text_title_size"
+					    android:paddingLeft="3dp"
+					    android:paddingRight="3dp"
+					    android:textColor="@color/navy_gray"
+					    android:text="Interval(s):"/>
+				  
+				    <EditText
+				        android:id="@+id/et_interval" 
+				      	android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:paddingLeft="3dp"
+				        android:layout_marginTop="5dp"
+				        android:layout_marginBottom="10dp"
+				        android:background="@drawable/bag_tv_ed"
+				        android:textColor="@color/blue_press"
+				        android:textSize="@dimen/main_page_text_size"
+				        android:focusable="false"
+				        android:padding="10dp"/>
+				</LinearLayout>
+				<View 
+				    android:layout_width="fill_parent"
+				    android:layout_height="1dp"
+				    android:background="#e5e5e5"/>
+		    </LinearLayout>
+	    </ScrollView>
+	</LinearLayout>	   
+			        
+			        
+	     
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:background="@drawable/white_roung_bg_buttom"
+	      	    android:padding="5dp"
+         android:layout_alignParentBottom="true" >
+        
+        <Button 
+            android:layout_marginTop="3dp"
+			android:id="@+id/bt_configure_save"
+			android:layout_gravity="center_horizontal"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="45dp"
+			android:background="@drawable/btn_background"
+			android:textColor="@color/blue_press"
+			android:text="@string/save"/>
+        <TextView 
+		    android:layout_width="2dp"
+		    android:layout_height="match_parent"
+		    android:background="#ffffff"/>
+		<Button 
+			android:id="@+id/bt_configure_loginout"
+			android:layout_gravity="center_horizontal"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="45dp"
+			android:background="@drawable/btn_background"
+			android:textColor="@color/blue_press"
+			android:text="@string/log_out"/>
+     </LinearLayout>	    
+	
+</LinearLayout>

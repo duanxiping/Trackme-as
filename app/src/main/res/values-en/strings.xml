@@ -1,0 +1,92 @@
+<resources>
+    <string name="action_settings">Settings</string>
+
+    <!-- 登录 -->
+    <string name="app_name">Track Me</string>
+    <string name="in_search">In search</string>
+    <string name="account_hit">Input the account</string>
+    <string name="password_hit">Input the password</string>
+    <string name="button_login">Login</string>
+    <string name="button_cancle">Cancel</string>
+    <string name="network_wrong">Network connection exception</string>
+    <string name="cannot_get_driver_id">Cannot to get phoneId</string>
+    <string name="login_out">Exit</string>
+    <string name="remind_pwd">Remember Password</string>
+    <string name="prompt">Prompt</string>
+    <string name="set_net">Are you want to set up the network？</string>
+    <string name="sure_set">Sure</string>
+    <string name="net_unalive">Network is unavailable</string>
+
+    <!--   <string name="google_unalive">No Google Maps</string> -->
+
+    <string name="user_login">User Login</string>
+    <string name="in_login">Logging In...</string>
+    <string name="username_dont_match">Username Password does not match</string>
+    <string name="init_time_error">Username Password does not match</string>
+    <string name="find_me">Locate</string>
+    <string name="exit">Exit</string>
+    <string name="chinese">Chinese</string>
+    <string name="English">English</string>
+    <string name="in_commit">Submitting Data...</string>
+    <string name="User_name_cannot_be_empty">Username can not be empty</string>
+    <string name="Password_cannot_be_empty">Password can not be blank</string>
+    <string name="try_again">Please try again</string>
+    <string name="hide_map">Hide map</string>
+    <string name="show_map">Show map</string>
+    <string name="registration_key">Option</string>
+    <string name="on_work">Check In</string>
+    <string name="off_work">Check Out</string>
+    <string name="image_description">Image</string>
+    <string name="commit_success">Submit Success</string>
+    <string name="commit_fail">Submission failed</string>
+    <string name="sure_exit">Confirm to exit?</string>
+    <string name="note">Prompt</string>
+    <string name="first_off_work">Away the work</string>
+
+    <string name="service">Service Running</string>
+    <string name="save">Save</string>
+    <string name="divices_name">Set Device Name</string>
+    <string name="get_data">Getting data...</string>
+    <string name="can_not_null">Pls enter info</string>
+    <string name="Traffic">Map</string>
+    <string name="Satellite">Satellite</string>
+    <string name="location_error">Check-in fail. No valid location.</string>
+    <string name="location_errors">Go off fail. No valid location.</string>
+    <string name="acquire_gps">Acquire GPS Location?</string>
+    <string name="cannot_find">Unable to get location information</string>
+    <string name="tv_check_update">The system detected a new version and click Update</string>
+
+
+    <string name="warning">Warning!</string>
+    <string name="msg_warning">Request Timeout,Try Again!</string>
+    <string name="warn_return">OK</string>
+    <string name="press_again">press again to exit the program</string>
+
+    <string name="setting_ip">IP Setting</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="ip_empty">Ip is empty!</string>
+
+    <string name="log_out">Return</string>
+
+    <string name="ip_save">IP has been saved</string>
+
+    <string name="open_gps">Please enable Location Services and try again</string>
+    <string name="open_gps_success">Location Services is on</string>
+    <string name="open_gps_fail">Location Services is off</string>
+
+    <string name="turn_on_gps_please">Please turn on Location Services and launch</string>
+
+    <string name="permission_camera_user_hint">test onRequestPermissionsResult: This function cannot be opened without this permission. Please open permissions</string>
+    <string name="permission_camera_user_hint1">test shouldShowRequestPermissionRationale: This function cannot be opened without this permission. Please open permissions</string>
+    <string name="permission_get_accounts_hint">This function cannot be opened without this permission. Please open permissions.PERMISSION_GET_ACCOUNTS</string>
+    <string name="permission_read_phone_hint">This function cannot be opened without this permission. Please open permissions.PERMISSION_READ_PHONE_STATE</string>
+    <string name="permission_call_phone_hint">This function cannot be opened without this permission. Please open permissions.PERMISSION_CALL_PHONE</string>
+    <string name="permission_camera_hint">This function cannot be opened without this permission. Please open permissions.PERMISSION_CAMERA</string>
+    <string name="permission_access_fine_location_hint">This function cannot be opened without this permission. Please open permissions.PERMISSION_ACCESS_FINE_LOCATION</string>
+    <string name="permission_access_coarse_location_hint">This function cannot be opened without this permission. Please open permissions.PERMISSION_ACCESS_COARSE_LOCATION</string>
+    <string name="permission_read_external_hint">This function cannot be opened without this permission. Please open permissions.PERMISSION_READ_EXTERNAL_STORAGE</string>
+    <string name="permission_white_external_hint">This function cannot be opened without this permission. Please open permissions.PERMISSION_WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_recode_audio_hint">This function cannot be opened without this permission. Please open permissions.PERMISSION_RECORD_AUDIO</string>
+</resources>
